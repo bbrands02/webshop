@@ -1,0 +1,66 @@
+@import "~bootstrap/scss/bootstrap";
+
+* {
+    box-sizing: border-box;
+    font-family: 'Tinos', serif;
+}
+
+html body {
+    background-color: black;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+.color-w {color: white;}
+
+.header-container {width: 100%;}
+
+.menu-btn-collapse {
+}
+
+.menu-btn-collapse:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.mobile-menu {
+    padding: 10px 0px 10px 0px;
+}
+
+.mobile-menu, li {
+    padding-bottom: 10px;
+    color: white;
+    list-style-type: none;
+}
+
+.mobile-menu, a {
+    color: white !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.mobile-menu li a:hover {
+    color: white;
+}
+
+.carousel-indicators li {
+    max-height: 5px !important;
+}
+
+.h-100px {
+    height: 100px;
+}
+
+.pl-10px {
+    padding-left: 10px !important;
+}
+
+.pr-10px {
+    padding-right: 10px !important;
+}
+

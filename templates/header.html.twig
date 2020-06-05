@@ -1,0 +1,27 @@
+<div class="header-container">
+
+    <div class="row pt-2">
+        <div class="col-9">
+            <h1 class="pl-3 color-w">BB</h1>
+        </div>
+
+        <div class="col-3 pl-0">
+            <a style="font-size: 35px;" class="menu-btn-collapse color-w ml-5" data-toggle="collapse" href="#dropdownNav" role="button"
+               aria-expanded="false" aria-controls="dropdownNav">
+                &#9776;
+            </a>
+        </div>
+    </div>
+
+    <div class="collapse show" id="dropdownNav">
+        <div class="col-12">
+            <ul class="mobile-menu mb-0">
+                <li><a href="{{ path('app_default_index') }}">Home</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="{{ path('app_default_contact') }}">Contact</a></li>
+                <li><a href="{{ path('app_default_about') }}">About</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

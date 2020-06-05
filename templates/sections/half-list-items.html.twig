@@ -1,0 +1,27 @@
+<div class="row">
+
+    {% set i = 0 %}
+    {% for item in items %}
+    {% set i = i + 1 %}
+
+    <div class="col-6 pr-10px">
+        
+        <img src="{{ item.images[0] }}" width="100%" alt="{{ item.name }} {{ item.color }}">
+
+        <p class="mb-0 color-w text-center pt-1">{{ item.name }}</p>
+        <p class="mb-0 color-w text-center">&euro; {{ item.price/100|number_format(2, '.', '.') }},-</p>
+    </div>
+
+    {% if i == 2 %}
+    {% set i = 0 %}
+
+</div>
+
+<div class="row">
+
+    {% endif %}
+
+    {% endfor %}
+
+
+</div>

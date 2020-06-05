@@ -1,0 +1,11 @@
+{% extends 'body.html.twig' %}
+
+{% block content %}
+
+    {% include 'sections/img-carousel.html.twig' %}
+
+    <h4 class="color-w my-4">Most Wanted</h4>
+
+    {% include 'sections/half-list-items.html.twig' with {'items': products} %}
+
+{% endblock %}
